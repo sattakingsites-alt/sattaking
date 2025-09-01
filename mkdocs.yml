@@ -1,8 +1,26 @@
 site_name: SattaKing Docs
-theme:
-  name: material
+site_description: Official Documentation for Satta King – Results, Info & Guides
+site_url: https://sattaking.readthedocs.io/
+repo_url: https://github.com/sattakingsites-alt/sattaking-docs
+
 nav:
   - Home: index.md
   - About: about.md
   - FAQ: faq.md
   - Legal & Disclaimer: legal-and-disclaimer.md
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - codehilite
