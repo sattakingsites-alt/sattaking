@@ -1,2 +1,2 @@
-# sattaking-docs
+# sattaking
 SattaKing
