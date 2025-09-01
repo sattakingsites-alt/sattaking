@@ -1,0 +1,7 @@
+site_name: SattaKing Docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - About: about.md
+  - FAQ: faq.md
