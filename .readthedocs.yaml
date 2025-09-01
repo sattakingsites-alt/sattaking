@@ -12,10 +12,6 @@ python:
   install:
     - requirements: requirements.txt
 
-# Documentation type
-sphinx:
-  builder: mkdocs
-
 # MkDocs configuration
 mkdocs:
   configuration: mkdocs.yml
